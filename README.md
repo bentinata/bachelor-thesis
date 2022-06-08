@@ -4,7 +4,7 @@ This documentation is prepared to help understanding my bachelor thesis, titled 
 
 In this project, I tried to isolate the effect of fluorinated Abu (mono-, di- and trifluorination) by studying it on a small hexapeptide, which is derived from VGLAPG to study the structure and its kinetics.
 
-The simulation itself was carried on GROMACS 2019.1 using the topology created in PyMol. Here we only analyze their structure by analyzing their Ramachandran plot, side chain torsion angle profiles (), end-to-end distance and the formed intramolecular hydrogen bonds.
+The simulation itself was carried on GROMACS 2019.1 using the topology created in PyMol. Here we only analyze their structure by analyzing their Ramachandran plot, side chain torsion angle profiles (\Chi_1), end-to-end distance and the formed intramolecular hydrogen bonds.
 
 In this published project, I only use a shorter trajectory length (100 ns instead of 500 ns) due to the size of the file. In the production run in GROMACS, each hexapeptides were simulated for a total time of 100 ns with 2 fs timestep and the trajectories were saved every picosecond, so in the end we have 100.000 data points.
 
